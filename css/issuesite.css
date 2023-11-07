@@ -1,0 +1,89 @@
+/* navigation */
+
+
+body {margin: 0; background-color: #a1b6db}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+.logo{height:160px; left:0px; float: left; position: ; top:0}
+
+.millikin{width:100%}
+/* navigation */
+
+/* Heading */
+.heading{text-align: center; background-color: #a1b6db; font-size: 45px; height: 175px;}
+/* Heading */
+
+/*testimonials */
+
+.box {
+  float: left;
+  width: 45%;
+  padding:10px;
+  background-color: white
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.bodytext{font-family: "baskervville"; font-size: 20px; background-color: white; padding: 15px; line-height: 27px}
+
+/* testimonials*/
+
+/* footer */
+
+footer {    
+   position: fixed
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   text-align: center;
+
+        }
+/* footer */
+
+/* font */
+
+@font-face {
+font-family: “baskervville”;
+src: url(“fonts/Baskervville-Regular.otf") format (“opentype”);
+}
+
+@font-face {
+font-family: “domine”;
+src: url(“fonts/Domine-Regular.ttf") format (“opentype”);
+}
+
+.name{padding: 10px; font-family: "domine"}
+.body{background-color: white}
+.testimages{height:400px; padding: 10px}
+.picture{display: block; margin-left: auto; margin-right: auto; width: 35%}
